@@ -14,7 +14,7 @@ package Test;
 		  // page
 	driver.get("http://localhost//covid-tms/patient-search-report.php");
 	// Registerd user mobile number
-	driver.findElement(By.id("searchdata")).sendKeys("8600789879");
+	driver.findElement(By.id("searchdata")).sendKeys("8459652020");
 	// Class path 
 	driver.findElement(By.xpath("/html/body/div/div/div/div/form/div/div/div/div/div[2]/input")).click();
 	//String s=driver.getCurrentUrl();

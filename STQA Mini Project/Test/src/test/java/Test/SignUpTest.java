@@ -17,17 +17,17 @@ public WebDriver driver;
 	  // For Open Website
 driver.get("http://localhost/covid-tms/new-user-testing.php");
      // Sending full name 
-driver.findElement(By.id("fullname")).sendKeys("Swapnil Rajendra Take");
+driver.findElement(By.id("fullname")).sendKeys("Vishwajeet Londhe");
      // Send phone to text field
-driver.findElement(By.id("mobilenumber")).sendKeys("8600789879");
+driver.findElement(By.id("mobilenumber")).sendKeys("8459652020");
     //  dob
-driver.findElement(By.id("dob")).sendKeys("09-04-2000");
+driver.findElement(By.id("dob")).sendKeys("01-01-2004");
  //  Govt Issued ID
 driver.findElement(By.id("govtissuedid")).sendKeys("Adhar");
 //  ID Number
-driver.findElement(By.id("govtidnumber")).sendKeys("979325686414");
+driver.findElement(By.id("govtidnumber")).sendKeys("123456789012");
 // address
-driver.findElement(By.id("address")).sendKeys("Newasa");
+driver.findElement(By.id("address")).sendKeys("pune");
 // State
 driver.findElement(By.id("state")).sendKeys("Maharashtra");
 
