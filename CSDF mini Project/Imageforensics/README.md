@@ -1,4 +1,6 @@
-# Digital Image Forensics
+# 📌 Digital Image Forensics  
+### **👥 Project made by:**  
+**Vishwajeet Londhe, Vaibhavi Mohite, Sahil Mate, Hemali Bharambe**
 
 ## Overview
 I gathered some techniques in some paper and composed the small tools that implement those methods in DIF. The tool does not tell exactly this image is forged/photoshoped/tampered or not (even if some tool can tell exactly forged or not, you can go directly to the top of the world).   This tools just give some warning, some weird “information” of the image, visual some strange region of the image to the users. Then, based on that information the users can make the decisions.
@@ -27,10 +29,6 @@ Or, Simply run command to install the packets:
 ### 1. Analysing using Metadata EXIF header
 ```
 python foreimg.py exif1.jpg
-```
-or:
-```
-python foreimg.py -e exif1.jpg
 ```
 
 After you run the command, the Warning and the detail of EXIF will be shown.
@@ -68,7 +66,7 @@ python foreimg.py -n1 demo.jpg
 ```
 After you run the command, the tampered region is highlight with dark color.
 
-You also can chosse the block size kernel:
+You also can choose the block size kernel:
 
 ```
 python foreimg.py -n1 -s 7 demo.jpg
@@ -127,4 +125,8 @@ python foreimg.py -el demo.jpg
 python foreimg.py -cf demo.jpg
 ```
 
-The folder contains the `exif*.jpg` for testing with EXIF, and `demo*.jpg` for testing with other methods. You can play around with those images. The quality of the tool is as well as with the online tool [Forensically](https://29a.ch/photo-forensics/#forensic-magnifier)
+## 🖼 Sample Images
+
+- **exif\*.jpg** → for EXIF testing  
+- **demo\*.jpg** → for forensic technique testing
+[Forensically](https://29a.ch/photo-forensics/#forensic-magnifier)
