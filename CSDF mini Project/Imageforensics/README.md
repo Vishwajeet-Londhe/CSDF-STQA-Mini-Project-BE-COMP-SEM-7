@@ -119,8 +119,6 @@ For more information about the theory, you can check the [REPORT.pdf](https://gi
 
 ```bash
 python foreimg.py exif1.jpg
-python foreimg.py exif2.jpg
-python foreimg.py exif3.jpg
 python foreimg.py -g demo.jpg
 python foreimg.py -gm demo.jpg
 python foreimg.py -n1 demo.jpg

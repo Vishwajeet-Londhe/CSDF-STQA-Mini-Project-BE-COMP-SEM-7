@@ -1,4 +1,4 @@
-# Copyright (C) Sahil,Vishwajeet, Vaibhavi, Hemali
+# Copyright (C) Vishwajeet, Vaibhavi, Sahil, Hemali
 
 import numpy as np
 import numpy.matlib as npm
@@ -17,17 +17,6 @@ from PIL import Image
 from PIL.ExifTags import TAGS, GPSTAGS
 from matplotlib import pyplot as plt
 from os.path import basename
-
-# python foreimg.py ./exif1.jpg
-# python foreimg.py -g demo.jpg
-# python foreimg.py -gm demo.jpg
-# python foreimg.py -el demo.jpg
-
-
-# python foreimg.py -n1 demo.jpg
-# python foreimg.py -n2 demo.jpg
-
-
 
 def main():
     argparser = argparse.ArgumentParser(description="Digital Image Forensics")
